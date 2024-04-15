@@ -95,12 +95,12 @@ def concatenate_files(base_file_path, new_file_path, insert_into_db=False):
 
 
 # Configuration
-ftp_host = 'conceptbpo.com.co'
-ftp_username = 'utrahuilca@conceptbpo.com.co'
-ftp_password = 'qt2Gv5CyvEzK'
-local_download_path = 'C:/Users/miguelcatano.3/PycharmProjects/ScriptAsesorDigital'
-base_file_path = os.path.join(local_download_path, 'FORMULARIO ASESORIA DIGITAL.xlsx')
-file_prefix = 'FORMULARIO ASESORIA DIGITAL'
+ftp_host = 'ejemplo.com.co'
+ftp_username = 'email@ejemplo.com.co'
+ftp_password = 'ejemplo1234'
+local_download_path = 'C:/Users/miguelcatano.3/PycharmProjects/XXXX EJEMPLO'
+base_file_path = os.path.join(local_download_path, 'palabra de referencia aquí')
+file_prefix = 'ejemplo del archivo123'
 
 # Connect to the FTP server
 ftp_conn = connect_ftp(ftp_host, ftp_username, ftp_password)
